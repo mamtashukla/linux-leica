@@ -147,7 +147,6 @@
 				regulator-boot-on;
 				regulator-always-on;
 				regulator-ramp-delay = <3125>;
-				nxp,dvs-standby-voltage = <800000>;
 			};
 
 			// VDD_ARM_0V9
@@ -158,6 +157,7 @@
 				regulator-boot-on;
 				regulator-always-on;
 				regulator-ramp-delay = <3125>;
+				nxp,dvs-run-voltage = <887500>;
 			};
 
 			// VDD_DRAM&PU_0V9
@@ -167,6 +167,7 @@
 				regulator-max-microvolt = <1000000>;
 				regulator-boot-on;
 				regulator-always-on;
+				nxp,dvs-run-voltage = <887500>;
 			};
 
 			// VDD_3V3/NVCC_3V3
